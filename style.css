@@ -1,0 +1,1473 @@
+/* links */
+a{
+    text-decoration: none;
+    font-size: 2vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   border-radius: 2vw;
+  transition: 1s;
+}
+a:hover{
+    transform: scale(1.5,1.5);
+}
+h2{
+    animation-name: titulo;
+    animation-duration: 3s;
+}
+@keyframes titulo{
+    from{
+       opacity: 0;
+    }
+    to{
+        opacity: 1;
+
+    }
+}
+.error404{
+    font-size: 8vw;
+    color:black;
+    background-image: linear-gradient(red,black);
+}
+.linkImportante4{
+    background-color: darkred;
+    background-image: linear-gradient(darkred,rgb(255, 85, 0));
+}
+.linkImportante{
+    color: rgb(128, 70, 0);
+    border: none;
+    background-color: none;
+    width: 30vw;
+    height: 4vw;
+    display: block;
+}
+.linkImportante3{
+    color:green;
+    background-color: none;
+    border: none;
+    width: 30vw;
+    height: 4vw;
+    display: block;
+}
+.linkImportante2{
+    color: rgb(128, 70, 0);
+    background-color: none;
+    border: none;
+}
+/* listas */
+li{
+    color: rgb(95, 11, 11);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2vw;
+}
+ol{
+    list-style-type:decimal;
+    list-style-position:inside;
+}
+ul{
+    list-style-type:disc;
+    list-style-position:inside;
+}
+ul ul{
+    list-style-type: none;
+
+}
+ol ol{
+    list-style-type: none;
+}
+.liImportante{
+    font-size: 2vw;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* formulario */
+form{
+    text-align: center;
+    height: 10vw;
+    width: 100%;
+}
+fieldset{
+    border: none;
+    height: 15vw;
+    width: 100%;
+}
+legend{
+    color: rgb(106, 0, 0);
+    font-size: 5vw;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 7vw;
+    width: 27vw;
+}
+label{
+    color: rgb(106, 0, 0);
+    font-size: 2vw;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 2vw;
+    width: 2vw;
+}
+textarea{
+    height: 10vw;
+    width: 20vw;
+}
+select{
+    height:2vw;
+    width: 8vw;
+}
+input{
+    height: 2vw;
+    width: 2vw;
+}
+/* Titulos */
+h1{
+    color: rgb(0, 31, 55);
+    text-align: center;
+    font-size:8vw;  
+    
+}
+h2{
+    color: firebrick;
+    text-align: center;
+    font-size: 7vw;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    animation-name: titulo;
+    animation-duration: 3s;
+}
+h3{
+    color:  rgb(0, 31, 55);
+    font-size: 2.5vw;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 4vw;
+}
+h4{
+    color: rgb(128, 70, 0);
+    font-size: 2vw;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline-block;
+    width: 20vw;
+}
+/* contenido principal */
+body{
+    
+    background-image: linear-gradient(to right,orange,rgb(238, 213, 166));
+}
+p{
+    color: rgb(106, 0, 0);
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1,7vw;
+}
+header{
+    background-color:rgb(230, 114, 35);
+    max-width: 100%;
+    background-image: linear-gradient(rgb(255, 110, 0),orangered);
+}
+main{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:left ;
+}
+nav{
+    background-color:rgb(230, 114, 35);
+    text-align: center;
+    word-spacing: 8vw;
+    position: sticky;
+    top: 0px;
+    background-image: linear-gradient(orangered,rgb(255, 110, 0));
+}
+.parrafoImportante{
+    font-size: 3vw;
+}
+div{
+    display:inline-block;
+    text-align: center;
+}
+footer{
+    background-color:rgb(230, 114, 35);
+    background-image: linear-gradient(orangered,rgb(255, 110, 0));
+    height: 20vw ;
+     
+}
+.upMarkets{
+    height: 10vw;
+    width: 10vw;
+}
+.fotoFooter{
+    height: 5vw;
+    width: 5vw;
+ transition: 0.8s;
+}
+.fotoFooter:hover{
+    transform: scale(1.5,1.5);
+}
+#subtituloAlterno3{
+    border-radius: 2vw;
+    background-color: aqua;
+    background-image: linear-gradient(rgb(0, 145, 255),cyan);
+}
+.subtituloAlterno2{
+    color: orangered;
+}
+.backgroundAlterno{
+    background-color:rgb(230, 114, 35) ;
+    border: 0.2vw solid black;
+    margin-left: 0.9vw;
+}
+     /* flexbox header */
+#flexHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.fotoHeader{
+    flex-basis: 10%;
+    width: 9vw;
+    height: 9vw;
+}
+#tituloHeader{
+    flex-basis:100% ; 
+    font-size: 8vw;
+}
+.linkLogo{
+    border: none;
+}
+     /* flexbox nav */
+#flexNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+     /* flexbox footer */
+#flexFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+     /* grid del index */
+#grilla{
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    grid-template-rows: 45vw 10vw 9vw 30vw 15vw 15vw ;
+    grid-template-areas:"area1 area1"
+                        "area2 area2"
+                        "area3 area4"  
+                        "area5 area5"
+                        "area6 area6"
+                        "area7 area8" ;
+}
+    #cajaUno{
+        grid-area: area1;
+    }
+    #cajaDos{
+        grid-area: area2;
+    }
+    #cajaTres{
+        grid-area: area3;
+    }
+    #cajaCuatro{
+        grid-area: area4;
+    }
+    #cajaCinco{
+        grid-area: area5;
+    }
+    #cajaSeis{
+        grid-area: area6;
+    }
+    #cajaSiete{
+        grid-area: area7;
+        display: inline-flex;
+        
+    }
+    #cajaOcho{
+        grid-area: area8;
+        display: inline-flex;
+    }
+     p{
+        color: rgb(106, 0, 0);
+        text-align: center;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 2vw;
+        display: inline-block;
+        width: 100%;
+    }
+    #subtituloAlterno{
+        color: rgb(255, 141, 20);
+    }
+    .imagenGaleria{
+        height: 23vw;
+        width: 23vw;
+        border-radius: 3vw;
+    }
+    .imagenComentario{
+         height: 6vw;
+        width: 6vw;
+        border-radius: 50%;
+    }
+    .videoHome{
+        height: 37vw;
+        width: 90vw;
+    }
+    *{
+        padding: 0%;
+        margin: 0%;
+    }
+    img{
+        margin-left: 0.5vw;
+        margin-right: 0.5vw;
+    }
+         /* dispositivos pequeños */
+        @media only screen and (max-width:600px){
+            #grilla{
+                display: grid;
+                grid-template-columns: 1fr ;
+                grid-template-rows: 77vw 13vw 12vw 10vw 250vw 30vw 12vw 12vw;
+                grid-template-areas:"area1"
+                                    "area2"
+                                    "area3" 
+                                    "area4"  
+                                    "area5"
+                                    "area6"
+                                    "area7" 
+                                    "area8" ;
+            }
+                p{
+                    color: rgb(106, 0, 0);
+                    text-align: center;
+                    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    font-size: 3vw;
+                    display: inline-block;
+                    width: 100%;
+                }
+                .imagenGaleria{
+                    height: 40vw;
+                    width: 90%;
+                    display: block;
+                }
+                #cajaCinco{
+                    grid-area: area5;
+                    display: flex;
+                    flex-direction: column;
+                    justify-items: center;
+                    align-items: center;
+                }
+                .fotoHeader{
+                    flex-basis: 10%;
+                    width: 13vw;
+                    height: 13vw;
+                }
+                header{
+                    background-color:rgb(230, 114, 35);
+                    width: 100%;
+                    height: 20vw;
+                }
+                #tituloHeader{
+                    flex-basis:100% ; 
+                    font-size: 8vw;
+                }
+                nav{
+                    background-color:rgb(230, 114, 35);
+                    text-align: center;
+                    word-spacing: 8vw;
+                    position: sticky;
+                    top: 0px;
+                }
+                h2{
+                    color: firebrick;
+                    text-align: center;
+                    font-size: 10vw;
+                    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                }
+                .videoHome{
+                    height: 65vw;
+                    width: 100%;
+                }
+                a{
+                    text-decoration: none;
+                   
+                    font-size: 3.5vw;
+                    color:black;
+                    font-family:Verdana, Geneva, Tahoma, sans-serif;
+                    border: 0.4vw solid black;
+                }
+                footer{
+                    background-color:rgb(230, 114, 35);
+                    width: 100%;
+                    height: 27vw;
+                }
+                .fotoFooter{
+                    height: 15vw;
+                    width: 15vw;
+                }
+                h4{
+                    color: rgb(128, 70, 0);
+                    font-size: 3vw;
+                    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    display: inline-block;
+                    width: 30vw;
+                }
+                .linkImportante{
+                    color: rgb(128, 70, 0);
+                    background-color:rgb(230, 114, 35);
+                    border: none;
+                    width: 30vw;
+                    height: 10vw;
+                    display: block;
+                }
+        }
+              /* dispositivos medianos */
+        @media only screen and (min-width:600px){
+            #grilla{
+                display: grid;
+                grid-template-columns: 50% 50% ;
+                grid-template-rows: 67vw 15vw 20vw 90vw 25vw 34vw ;
+                grid-template-areas:"area1 area1"
+                                    "area2 area2"
+                                    "area3 area4"  
+                                    "area5 area5"
+                                    "area6 area6"
+                                    "area7 area8";
+                }
+                #cajaUno{
+                    grid-area: area1;
+                }
+                #cajaDos{
+                    grid-area: area2;
+                  
+                      
+                }
+                #cajaTres{
+                    grid-area: area3;
+                }
+                #cajaCuatro{
+                    grid-area: area4;
+                }
+                #cajaCinco{
+                    grid-area: area5;
+                }
+                #cajaSeis{
+                    grid-area: area6;
+                }
+                #cajaSiete{
+                    grid-area: area7;
+                    display: inline-flex;
+                }
+                #cajaOcho{
+                    grid-area: area8;
+                    display: inline-flex;
+                }
+                h2{
+                    color: firebrick;
+                    text-align: center;
+                    font-size: 8vw;
+                    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                }
+                div{
+                    text-align: center; 
+                    
+                }
+                p{
+                    color: rgb(106, 0, 0);
+                    text-align: center;
+                    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    font-size: 3vw;
+                    display: inline-block;
+                    width: 100%;
+                }
+                #subtituloAlterno{
+                    color: rgb(255, 141, 20);
+                }
+                .imagenGaleria{
+                    height: 40vw;
+                    width: 40vw;
+                }
+                .imagenComentario{
+                    height: 8vw;
+                    width: 8vw;
+                }
+                .videoHome{
+                    height: 60vw;
+                    width: 90%;
+                }
+                *{
+                    padding: 0%;
+                    margin: 0%;
+                }
+                a{
+                    text-decoration: none;
+                    
+                    font-size: 3vw;
+                    color:black;
+                    font-family:Verdana, Geneva, Tahoma, sans-serif;
+                    background-size: 10vw;
+                }
+                h2{
+                    color: firebrick;
+                    text-align: center;
+                    font-size:10vw;
+                    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                }
+                h4{
+                    color: rgb(128, 70, 0);
+                    font-size: 3vw;
+                    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    display: inline-block;
+                    width: 30vw;
+                }
+                .linkImportante{
+                    color: rgb(128, 70, 0);
+                    
+                    border: none;
+                    width: 30vw;
+                    height: 7vw;
+                    display: block;
+                }
+                .fotoFooter{
+                    height: 12vw;
+                    width: 12vw;
+                }
+        }
+                /* dispositivos grandes */
+        @media only screen and (min-width:1000px){
+            #grilla{
+                display: grid;
+                grid-template-columns: 50% 50% ;
+                grid-template-rows: 50vw 10vw 15vw 40vw 10vw 20vw ;
+                grid-template-areas:"area1 area1"
+                                    "area2 area2"
+                                    "area3 area4"  
+                                    "area5 area5"
+                                    "area6 area6"
+                                    "area7 area8" ;
+            }
+                #cajaUno{
+                    grid-area: area1;
+                }
+                #cajaDos{
+                    grid-area: area2;
+                }
+                #cajaTres{
+                    grid-area: area3;
+                }
+                #cajaCuatro{
+                    grid-area: area4;
+                }
+                #cajaCinco{
+                    grid-area: area5; 
+                }
+                #cajaSeis{
+                    grid-area: area6;
+                }
+                #cajaSiete{
+                    grid-area: area7;
+                    display: inline-flex;
+                }
+                #cajaOcho{
+                    grid-area: area8;
+                    display: inline-flex;
+                }
+                h2{
+                    color: firebrick;
+                    text-align: center;
+                    font-size: 7vw;
+                    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                }
+                div{
+                    text-align: center; 
+                    
+                }
+                p{
+                    color: rgb(106, 0, 0);
+                    text-align: center;
+                    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    font-size: 2vw;
+                    display: inline-block;
+                    width: 100%;
+                }
+                #subtituloAlterno{
+                    color: rgb(255, 141, 20);
+                }
+                .imagenGaleria{
+                    height: 23vw;
+                    width: 23vw;
+                    transition: 0.8s;
+                }
+                .imagenGaleria2{
+                    height: 23vw;
+                    width: 23vw;
+                    transition: 0.8s;
+                    border-radius: 3vw;
+                }
+                .imagenGaleria:hover{
+                    transform: scale(1.5,1.5) translate(5vw) ;
+                  
+                }
+                .imagenGaleria2:hover{
+                    transform: scale(1.5,1.5) translate(-5vw) ;
+                }
+                .imagenComentario{
+                    height: 6vw;
+                    width: 6vw;
+            
+                }
+                .videoHome{
+                    height: 37vw;
+                    width: 90vw;
+                    animation-name: titulo;
+                    animation-duration: 3s;
+                    transition: 0.8s;
+                }
+                .videoHome:hover{
+                    transform: scale(1.2,1.2) translate(0,2vw);
+                }
+                *{
+                    padding: 0%;
+                    margin: 0%;
+                }
+
+        }
+                   /* grillaservicos */
+#grillaServicios{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 12vw 5vw 20vw 20vw 6vw 20vw 17vw 6vw 20vw 20vw;
+    grid-template-areas: "area1 area1 area1 area1"
+                         "area2 area3 area4 area5"
+                         "area6 area7 area8 area9"
+                         "area10 area11 area12 area13"
+                         "area14 area15 area16 area17"
+                         "area18 area19 area20 area21"
+                         "area22 area23 area24 area25"
+                         "area26 area27 area28 area29"
+                         "area30 area31 area32 area33"
+                         "area34 area35 area36 area37";
+    column-gap: 0.01vw;
+        
+}
+    #areaServicios1{
+                  grid-area: area1;  
+    }
+    #areaServicios2{
+        grid-area: area2;  
+         background-image: linear-gradient(to left,orangered,rgb(255, 110, 0));
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-bottom: none;
+        border-top-left-radius: 3vw;
+        border-top-right-radius: 3vw;
+    }
+    #areaServicios3{
+        grid-area: area3;  
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-bottom: none;
+        border-top-left-radius: 3vw;
+        border-top-right-radius: 3vw;
+        background-image: linear-gradient(to right,cyan, white);
+    }
+    #areaServicios4{
+        grid-area: area4;
+         background-image: linear-gradient(to left,orangered,rgb(255, 110, 0));
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-bottom: none;
+        border-top-left-radius: 3vw;
+        border-top-right-radius: 3vw;
+    }
+    #areaServicios5{
+        grid-area: area5;  
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-bottom: none;
+        border-top-left-radius: 3vw;
+        border-top-right-radius: 3vw;
+        background-image: linear-gradient(to right,cyan, white);
+    }
+    #areaServicios6{
+        grid-area: area6;  
+         background-image: linear-gradient(to left,orangered,rgb(255, 110, 0));
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-top: none;
+        border-bottom: none;
+    }
+    #areaServicios7{
+        grid-area: area7; 
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-bottom: none;
+        border-top: none;
+        background-image: linear-gradient(to right,cyan, white);
+    }
+    #areaServicios8{
+        grid-area: area8;
+         background-image: linear-gradient(to left,orangered,rgb(255, 110, 0));
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-bottom: none;
+        border-top: none;
+    }
+    #areaServicios9{
+        grid-area: area9;  
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-top: none;
+        border-bottom: none;
+        background-image: linear-gradient(to right,cyan, white);
+    }
+    #areaServicios10{
+        grid-area: area10;  
+         background-image: linear-gradient(to left,orangered,rgb(255, 110, 0));
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-top:none ;
+        margin-bottom: 0.5vw;
+        border-bottom-left-radius: 3vw;
+        border-bottom-right-radius: 3vw;
+    }
+    #areaServicios11{
+        grid-area: area11; 
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-top: none;
+        margin-bottom: 0.5vw;
+        border-bottom-left-radius: 3vw;
+        border-bottom-right-radius: 3vw;
+        background-image: linear-gradient(to right,cyan, white);
+    }
+    #areaServicios12{
+        grid-area: area12; 
+         background-image: linear-gradient(to left,orangered,rgb(255, 110, 0));
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-top: none;
+        margin-bottom: 0.5vw;
+        border-bottom-left-radius: 3vw;
+        border-bottom-right-radius: 3vw;
+    }
+    #areaServicios13{
+        grid-area: area13;
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-top: none;      
+        margin-bottom: 0.5vw;
+        border-bottom-left-radius: 3vw;
+        border-bottom-right-radius: 3vw;
+        background-image: linear-gradient(to right,cyan, white);
+    }
+    #areaServicios14{
+        grid-area: area14;
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-bottom: none;
+        border-top-left-radius: 3vw;
+        border-top-right-radius: 3vw;
+        background-image: linear-gradient(to right,cyan, white);
+    }
+    #areaServicios15{
+        grid-area: area15; 
+         background-image: linear-gradient(to left,orangered,rgb(255, 110, 0));
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-bottom: none;
+        border-top-left-radius: 3vw;
+        border-top-right-radius: 3vw;
+    } 
+    #areaServicios16{
+        grid-area: area16; 
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-bottom: none;
+        border-top-left-radius: 3vw;
+        border-top-right-radius: 3vw;
+        background-image: linear-gradient(to right,cyan, white);
+    }
+    #areaServicios17{
+        grid-area: area17; 
+         background-image: linear-gradient(to left,orangered,rgb(255, 110, 0));
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-bottom: none;
+        border-top-left-radius: 3vw;
+        border-top-right-radius: 3vw;
+    }
+    #areaServicios18{
+        grid-area: area18;
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-top: none;
+        border-bottom: none;
+        background-image: linear-gradient(to right,cyan, white);
+    }
+    #areaServicios19{
+        grid-area: area19;
+         background-image: linear-gradient(to left,orangered,rgb(255, 110, 0));
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-bottom: none;
+        border-top: none;
+    }
+    #areaServicios20{
+        grid-area: area20; 
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-top: none;
+        border-bottom: none;
+        background-image: linear-gradient(to right,cyan, white);
+    }
+    #areaServicios21{
+        grid-area: area21; 
+         background-image: linear-gradient(to left,orangered,rgb(255, 110, 0));
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-bottom: none;
+        border-top: none;
+    }
+    #areaServicios22{
+        grid-area: area22;
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-top: none;
+        margin-bottom: 0.5vw;
+        border-bottom-left-radius: 3vw;
+        border-bottom-right-radius: 3vw;
+        background-image: linear-gradient(to right,cyan, white);
+    }
+    #areaServicios23{
+        grid-area: area23;
+         background-image: linear-gradient(to left,orangered,rgb(255, 110, 0));
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-top: none;
+        margin-bottom: 0.5vw; 
+        border-bottom-left-radius: 3vw;
+        border-bottom-right-radius: 3vw;
+    }
+    #areaServicios24{
+        grid-area: area24;  
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-top: none;
+        margin-bottom: 0.5vw;
+        border-bottom-left-radius: 3vw;
+        border-bottom-right-radius: 3vw;
+        background-image: linear-gradient(to right,cyan, white);
+    }
+    #areaServicios25{
+        grid-area: area25;
+         background-image: linear-gradient(to left,orangered,rgb(255, 110, 0));
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-top: none;
+        margin-bottom: 0.5vw;
+        border-bottom-left-radius: 3vw;
+        border-bottom-right-radius: 3vw;
+    }
+    #areaServicios26{
+        grid-area: area26;  
+         background-image: linear-gradient(to left,orangered,rgb(255, 110, 0));
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-bottom: none;
+        border-top-left-radius: 3vw;
+        border-top-right-radius: 3vw;
+    }
+    #areaServicios27{
+        grid-area: area27;  
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-bottom: none;
+        border-top-left-radius: 3vw;
+        border-top-right-radius: 3vw;
+        background-image: linear-gradient(to right,cyan, white);
+    }
+    #areaServicios28{
+        grid-area: area28;  
+         background-image: linear-gradient(to left,orangered,rgb(255, 110, 0));
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-bottom: none;
+        border-top-left-radius: 3vw;
+        border-top-right-radius: 3vw;
+    }
+    #areaServicios29{
+        grid-area: area29;  
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-bottom: none;
+        border-top-left-radius: 3vw;
+        border-top-right-radius: 3vw;
+        background-image: linear-gradient(to right,cyan, white);
+    }
+    #areaServicios30{
+        grid-area: area30;
+         background-image: linear-gradient(to left,orangered,rgb(255, 110, 0));
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-bottom: none;
+        border-top: none;
+    }
+    #areaServicios31{
+        grid-area: area31; 
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-top: none;
+        border-bottom: none;
+        background-image: linear-gradient(to right,cyan, white);
+    }
+    #areaServicios32{
+        grid-area: area32;
+         background-image: linear-gradient(to left,orangered,rgb(255, 110, 0));
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-bottom: none;
+        border-top: none;
+    }
+    #areaServicios33{
+        grid-area: area33;  
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-top: none;
+        border-bottom: none;
+        background-image: linear-gradient(to right,cyan, white);
+        
+    }
+    #areaServicios34{
+        grid-area: area34;
+         background-image: linear-gradient(to left,orangered,rgb(255, 110, 0));
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-top: none;
+        margin-bottom: 0.5vw;
+        border-bottom-left-radius: 3vw;
+        border-bottom-right-radius: 3vw;
+        
+    }
+    #areaServicios35{
+        grid-area: area35;  
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-top: none;
+        margin-bottom: 0.5vw;
+        border-bottom-left-radius: 3vw;
+        border-bottom-right-radius: 3vw;
+        background-image: linear-gradient(to right,cyan, white);
+    }
+    #areaServicios36{
+        grid-area: area36; 
+         background-image: linear-gradient(to left,orangered,rgb(255, 110, 0));
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-top: none;
+        margin-bottom: 0.5vw;
+        border-bottom-left-radius: 3vw;
+        border-bottom-right-radius: 3vw;
+    }
+    #areaServicios37{
+        grid-area: area37; 
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-top: none;
+        margin-bottom: 0.5vw;
+        border-bottom-left-radius: 3vw;
+        border-bottom-right-radius: 3vw;
+        background-image: linear-gradient(to right,cyan, white);
+    }
+    .imagenServicios{
+        width: 18vw;
+        height: 18vw;
+        border-radius: 2vw;
+        transition: 0.8s;
+       
+    }
+    .imagenServicios:hover{
+        transform: scale(2,2)translate(6vw); 
+        
+        
+    }
+    .imagenServicios2{
+        width: 18vw;
+        height: 18vw;
+        border-radius: 2vw;
+        transition: 0.8s;
+       
+        
+    }
+    .imagenServicios2:hover{
+        transform: scale(2,2)translate(-6vw);
+
+    }
+    .videoServicios{
+        width: 20vw;
+        height: 20vw;
+        margin-left: 0.5vw;
+        margin-right: 0.5vw;
+        transition: 0.8s;
+    }
+    .videoServicios:hover{
+        transform: scale(2,2)translate(6vw); 
+    }
+    div{
+        text-align: center;
+    }
+       /* grillahabitacion */
+#grillaHabitacion{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 12vw 5vw 20vw 25vw 6vw 20vw 25vw ;
+        grid-template-areas: "area1 area1 area1 area1"
+                             "area2 area3 area4 area5"
+                             "area6 area7 area8 area9"
+                             "area10 area11 area12 area13"
+                             "area14 area15 area16 area17"
+                             "area18 area19 area20 area21"
+                             "area22 area23 area24 area25";
+}
+    #areaHabitacion1{
+      grid-area: area1;  
+    }
+    #areaHabitacion2{
+        grid-area: area2;  
+         background-image: linear-gradient(to left,orangered,rgb(255, 110, 0));
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-bottom: none;
+        border-top-left-radius: 3vw;
+        border-top-right-radius: 3vw;
+    }
+    #areaHabitacion3{
+        grid-area: area3;  
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-bottom: none;
+        border-top-left-radius: 3vw;
+        border-top-right-radius: 3vw;
+    }
+    #areaHabitacion4{
+        grid-area: area4;
+         background-image: linear-gradient(to left,orangered,rgb(255, 110, 0));
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-bottom: none;
+        border-top-left-radius: 3vw;
+        border-top-right-radius: 3vw;
+    }
+    #areaHabitacion5{
+        grid-area: area5;  
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-bottom: none;
+        border-top-left-radius: 3vw;
+        border-top-right-radius: 3vw;
+    }
+    #areaHabitacion6{
+       grid-area: area6;  
+        background-image: linear-gradient(to left,orangered,rgb(255, 110, 0));
+       border: 0.2vw solid black;
+       margin-left: 0.9vw;
+       border-top: none;
+       border-bottom: none;
+    }
+    #areaHabitacion7{
+        grid-area: area7; 
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-bottom: none;
+        border-top: none;
+    }
+    #areaHabitacion8{
+       grid-area: area8;
+         background-image: linear-gradient(to left,orangered,rgb(255, 110, 0));
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-bottom: none;
+        border-top: none;
+    }
+    #areaHabitacion9{
+        grid-area: area9;  
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-top: none;
+        border-bottom: none;
+    }
+    #areaHabitacion10{
+        grid-area: area10;  
+         background-image: linear-gradient(to left,orangered,rgb(255, 110, 0));
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-top:none ;
+        margin-bottom: 0.5vw;
+        border-bottom-left-radius: 3vw;
+        border-bottom-right-radius: 3vw;
+    }
+    #areaHabitacion11{
+        grid-area: area11; 
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-top: none;
+        margin-bottom: 0.5vw;
+        border-bottom-left-radius: 3vw;
+        border-bottom-right-radius: 3vw;
+    }
+    #areaHabitacion12{
+        grid-area: area12; 
+         background-image: linear-gradient(to left,orangered,rgb(255, 110, 0));
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-top: none;
+        margin-bottom: 0.5vw;
+        border-bottom-left-radius: 3vw;
+        border-bottom-right-radius: 3vw;
+    }
+    #areaHabitacion13{
+        grid-area: area13;
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-top: none;
+        border-bottom-left-radius: 3vw;
+        border-bottom-right-radius: 3vw;
+        margin-bottom: 0.5vw;
+    }
+    #areaHabitacion14{
+        grid-area: area14;
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-bottom: none;
+        border-top-left-radius: 3vw;
+        border-top-right-radius: 3vw;
+    }
+    #areaHabitacion15{
+        grid-area: area15; 
+         background-image: linear-gradient(to left,orangered,rgb(255, 110, 0));
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-bottom: none;
+        border-top-left-radius: 3vw;
+        border-top-right-radius: 3vw;
+    } 
+    #areaHabitacion16{
+        grid-area: area16; 
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-bottom: none;
+        border-top-left-radius: 3vw;
+        border-top-right-radius: 3vw;
+    }
+    #areaHabitacion17{
+        grid-area: area17;
+         background-image: linear-gradient(to left,orangered,rgb(255, 110, 0));
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-bottom: none;
+        border-top-left-radius: 3vw;
+        border-top-right-radius: 3vw;
+    }
+    #areaHabitacion18{
+        grid-area: area18;
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-top: none;
+        border-bottom: none;
+       }
+    #areaHabitacion19{
+        grid-area: area19;
+         background-image: linear-gradient(to left,orangered,rgb(255, 110, 0));
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-bottom: none;
+        border-top: none;
+    }
+    #areaHabitacion20{
+        grid-area: area20; 
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-top: none;
+        border-bottom: none;
+    }
+    #areaHabitacion21{
+        grid-area: area21;
+         background-image: linear-gradient(to left,orangered,rgb(255, 110, 0));
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-bottom: none;
+        border-top: none;
+    }
+    #areaHabitacion22{
+        grid-area: area22;
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-top: none;
+        margin-bottom: 0.5vw;
+        border-bottom-left-radius: 3vw;
+        border-bottom-right-radius: 3vw;
+    }
+    #areaHabitacion23{
+        grid-area: area23;
+         background-image: linear-gradient(to left,orangered,rgb(255, 110, 0));
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-top: none;
+        margin-bottom: 0.5vw; 
+        border-bottom-left-radius: 3vw;
+        border-bottom-right-radius: 3vw;
+    }
+    #areaHabitacion24{
+        grid-area: area24;  
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-top: none;
+        margin-bottom: 0.5vw;
+        border-bottom-left-radius: 3vw;
+        border-bottom-right-radius: 3vw;
+    }
+    #areaHabitacion25{
+         background-image: linear-gradient(to left,orangered,rgb(255, 110, 0));
+        border: 0.2vw solid black;
+        margin-left: 0.9vw;
+        border-top: none;
+        margin-bottom: 0.5vw;
+        border-bottom-left-radius: 3vw;
+        border-bottom-right-radius: 3vw;
+    }
+    /* grillaubicacion */
+#grillaUbicacion{
+        display: grid;
+        grid-template-columns: 33,333% 33,333% 33,333%;
+        grid-template-rows: 12vw 30vw 25vw 15vw 27vw 20vw  ;
+        grid-template-areas: "area1 area1 area1"
+                             "area2 area2 area2"
+                             "area3 area3 area3"
+                             "area4 area4 area4"
+                             "area5 area6 area7"
+                             "area8 area9 area10";
+}
+    #areaUbicacion1{
+      grid-area: area1;  
+    }
+    #areaUbicacion2{
+        grid-area: area2;
+        height: 30vw;  
+    }
+    #areaUbicacion3{
+        grid-area: area3; 
+        background-image: url(https://lapalomahoy.uy/12-2020/resize_1607913950.jpg);
+        background-repeat: no-repeat;
+        background-size: cover; 
+    }
+    #areaUbicacion4{
+        grid-area: area4;
+    }
+    #areaUbicacion5{
+        grid-area: area5;  
+    }
+    #areaUbicacion6{
+       grid-area: area6;  
+    }
+    #areaUbicacion7{
+        grid-area: area7; 
+    }
+    #areaUbicacion8{
+       grid-area: area8;
+       margin-left: 1.5vw;
+       margin-right: 1.5vw;
+    }
+    #areaUbicacion9{
+        grid-area: area9;  
+        margin-left: 1.5vw;
+        margin-right: 1.5vw;
+    }
+    #areaUbicacion10{
+        grid-area: area10;  
+        margin-left: 1.5vw;
+        margin-right: 1.5vw;
+    }
+    .imagenUbicacion{
+        height: 25vw;
+        width: 25vw;
+        border-radius: 2vw;
+        transition: 0.8s;
+    }
+    .imagenUbicacion:hover{
+        transform: scale(1.4,1.4);
+    }
+    
+
+/* grillacontacto */
+#grillaContacto{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 12vw 5vw 12vw 35vw   ;
+    grid-template-areas: "area1"
+                         "area2"
+                         "area3"
+                         "area4";
+}
+    #areaContacto1{
+    grid-area: area1;  
+    }
+    #areaContacto2{
+    grid-area: area2;
+    animation-name: titulo;
+    animation-duration: 3s;
+    }
+    #areaContacto3{
+    grid-area: area3; 
+    animation-name: titulo;
+    animation-duration: 3s;
+    }
+    #areaContacto4{
+    grid-area: area4;
+    text-align: center;
+     height: 15vw;
+    }
+    .mainAlterno{
+    background-image: url(imagenes/logo.png);
+    background-size: 35vw;
+    }
+    input{
+        background-image: linear-gradient(orange,peru);
+        border-radius: 1vw;
+        height: 2vw;
+        width: 9vw;
+    }
+    .input{
+        animation-name: mover;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    }
+    textarea{
+        border-radius: 1vw;
+        background-color:peru;
+    }
+    select{
+        border-radius: 1vw;
+        background-color: peru;
+    }
+    @keyframes mover{
+        0%{
+            transform: translatex(0px);
+        }
+        25%{
+            transform: translatex(-8px);
+        }
+        50%{
+            transform: translatex(8px);
+        }
+        75%{
+            transform: translatex(-8px);
+        }
+        100%{
+            transform: translatex(8);
+        }
+        
+
+    }
+    @media only screen and (max-width:600px){
+        #grillaContacto{
+            display: grid;
+            grid-template-columns: 100%;
+            grid-template-rows: 12vw 5vw 12vw 60vw   ;
+            grid-template-areas: "area1"
+                                 "area2"
+                                 "area3"
+                                 "area4";
+        } 
+        #areaContacto1{
+            grid-area: area1;  
+            }
+            #areaContacto2{
+            grid-area: area2;
+            animation-name: titulo;
+            animation-duration: 3s;
+            }
+            #areaContacto3{
+            grid-area: area3; 
+            animation-name: titulo;
+            animation-duration: 3s;
+            }
+            #areaContacto4{
+            grid-area: area4;
+            text-align: center;
+             height: 15vw;
+            }
+            .mainAlterno{
+            background-image: url(imagenes/logo.png);
+            background-size: 35vw;
+            }
+            input{
+                background-image: linear-gradient(orange,peru);
+                border-radius: 1vw;
+                height: 2vw;
+                width: 9vw;
+            }
+            .input{
+                animation-name: mover;
+                animation-duration: 10s;
+                animation-iteration-count: infinite;
+            }
+            textarea{
+                border-radius: 1vw;
+                background-color:peru;
+            }
+            select{
+                border-radius: 1vw;
+                background-color: peru;
+            }
+
+
+    }
+    @media only screen and (max-width:250px){
+        #grillaContacto{
+            display: grid;
+            grid-template-columns: 100%;
+            grid-template-rows: 12vw 5vw 12vw 75vw   ;
+            grid-template-areas: "area1"
+                                 "area2"
+                                 "area3"
+                                 "area4";
+        } 
+        #areaContacto1{
+            grid-area: area1;  
+            }
+            #areaContacto2{
+            grid-area: area2;
+            animation-name: titulo;
+            animation-duration: 3s;
+            }
+            #areaContacto3{
+            grid-area: area3; 
+            animation-name: titulo;
+            animation-duration: 3s;
+            }
+            #areaContacto4{
+            grid-area: area4;
+            text-align: center;
+             height: 15vw;
+            }
+            .mainAlterno{
+            background-image: url(imagenes/logo.png);
+            background-size: 35vw;
+            }
+            input{
+                background-image: linear-gradient(orange,peru);
+                border-radius: 1vw;
+                height: 2vw;
+                width: 9vw;
+            }
+            .input{
+                animation-name: mover;
+                animation-duration: 10s;
+                animation-iteration-count: infinite;
+            }
+            textarea{
+                border-radius: 1vw;
+                background-color:peru;
+            }
+            select{
+                border-radius: 1vw;
+                background-color: peru;
+            }
+
+
+    }
